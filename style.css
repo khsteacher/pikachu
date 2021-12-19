@@ -1,0 +1,138 @@
+/* PIKACHU STYLESHEET */
+
+/* Import af Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.outer-container {
+    border: 3px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: bisque; /* til Pikachu */
+    /* background-color: yellow; til Charmander */
+    /* background-color: darkturquoise; til Squirtle */
+    position: relative;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#logo-title {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    letter-spacing: 6px;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    padding-right: 40px;
+}
+
+nav ul li:hover {
+    color: hotpink;
+} 
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: inherit; 
+}
+
+/* INTRO AREA */
+
+.intro-container {
+    background-color: khaki;
+    overflow: auto;
+}
+
+.image-container {
+    max-width: 600px;
+    margin: 0;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-sizing: border-box;
+}
+
+.intro-text {
+    float: left;
+    max-width: 600px;
+    margin: 0;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+/* FOOTER AREA */
+
+footer {
+    background-color: bisque;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 2px solid black;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* GALLERY */
+
+.gallery-container {
+    background-color: khaki;
+    overflow: auto;
+}
+
+.gallery-image {
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 5px solid black;
+    outline-offset: -10px;
+}
+
+/* ABOUT */
+
+.about-container {
+    background-color: khaki;
+    overflow: auto;
+    text-align: center;
+}
+
